@@ -37,16 +37,14 @@ void Max_power(int e, int v, int matr[v][e]){
 
 
 int main(void) {
-    int e = 0, v = 0;
+    int e = 0, v = 0,ans1 = 0,ans2= 0;
     printf("Enter edges and verses of graph:\nV=");
     scanf("%d", &v);
     printf("\nE=");
     scanf("%d", &e);
     printf("Graph is directed:\n 1 - yes\n 0 - no\n answer: ");
-    int ans1 = 0;
     scanf("%d",&ans1);
     printf("Graph is weighted:\n 1 - yes\n 0 - no\n answer: ");
-    int ans2 = 0;
     scanf("%d",&ans2);
     int* edge = NULL;
     if(ans2){
