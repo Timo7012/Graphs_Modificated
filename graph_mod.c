@@ -37,7 +37,7 @@ void Max_power(int e, int v, int matr[v][e]){
 
 
 int main(void) {
-    int e = 0, v = 0,ans1 = 0,ans2= 0;
+    int e = 0, v = 0,ans1 = 0,ans2 = 0;
     printf("Enter edges and verses of graph:\nV=");
     scanf("%d", &v);
     printf("\nE=");
