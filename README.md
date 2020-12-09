@@ -4,6 +4,7 @@ void Max_power(int e, int v, int matr[v][e]){
     int verse = -1, power = -1,temp_zero = 0,check = 0,memory = -1;
     int temp_matr[v];
 
+```C
     for(int i = 0; i < v; ++i ){
         temp_matr[i] = 0;
     }
@@ -37,3 +38,4 @@ void Max_power(int e, int v, int matr[v][e]){
     }
     printf("Max power of verse %d is %d ",verse,power);
 }
+```
