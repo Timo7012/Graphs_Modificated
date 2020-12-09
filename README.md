@@ -39,3 +39,7 @@ void Max_power(int e, int v, int matr[v][e]){
     printf("Max power of verse %d is %d ",verse,power);
 }
 ```
+
+## Структурная схема программы и алгоритмов:
+![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/Scheme_1.jpg)
+
