@@ -46,3 +46,12 @@ void Max_power(int e, int v, int matr[v][e]){
 ![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/Scheme_3.jpg)
 ![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/Scheme_F.jpg)
 
+## Визуализация и матрица графа:
+![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/Matrix.jpg)
+![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/Graph.jpg)
+
+
+## Консоль и результат программы:
+![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/Console.jpg)
+![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/gfile.dot)
+
