@@ -53,5 +53,18 @@ void Max_power(int e, int v, int matr[v][e]){
 
 ## Консоль и результат программы:
 ![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/Console.jpg)
-![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/gfile.dot)
+``` Dot
+graph graphname {
+	0;
+	1;
+	2;
+	3;
+	4;
+	3 -- 4;
+	2 -- 3;
+	1 -- 3;
+	0 -- 4;
+	4 -- 4;
+}
+```
 
