@@ -1,8 +1,7 @@
 # 10. Найти вершины с максимальной степенью вершины
 ## Алгоритм:
-``` C
 void Max_power(int e, int v, int matr[v][e]){
-    int verse=-1, power=-1;
+    int verse = -1, power = -1,temp_zero = 0,check = 0,memory = -1;
     int temp_matr[v];
 
     for(int i = 0; i < v; ++i ){
@@ -10,16 +9,23 @@ void Max_power(int e, int v, int matr[v][e]){
     }
 
     for(int i = 0; i < e; ++i){
+        temp_zero=0;
+        check=0;
         for(int j = 0; j < v; ++j){
-            int temp_zero=0;
             if(matr[j][i] != 0){
                 ++temp_matr[j];
+                ++check;
+                if (check == 1 ){
+                    memory = j;
+                }else{
+                    memory = -1;
+                }
             }
             else{
                 temp_zero += 1;
             }
-            if (temp_zero == v-1 && ++temp_matr[j] == 1){
-                ++temp_matr[j];
+            if (temp_zero == v-1 && check == 1 ){
+                ++temp_matr[memory];
             }
         }
     }
@@ -31,4 +37,3 @@ void Max_power(int e, int v, int matr[v][e]){
     }
     printf("Max power of verse %d is %d ",verse,power);
 }
-```
