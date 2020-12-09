@@ -42,4 +42,7 @@ void Max_power(int e, int v, int matr[v][e]){
 
 ## Структурная схема программы и алгоритмов:
 ![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/Scheme_1.jpg)
+![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/Scheme_2.jpg)
+![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/Scheme_3.jpg)
+![Alt-текст](https://github.com/Timo7012/Graphs_Modificated/blob/main/Scheme_F.jpg)
 
