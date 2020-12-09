@@ -2,7 +2,7 @@
 # 10. Найти вершины с максимальной степенью вершины
 ## Алгоритм:
 ``` C
-	void Max_power(int e, int v, int matr[v][e]){
+void Max_power(int e, int v, int matr[v][e]){
     int verse=-1, power=-1;
     int temp_matr[v];
 
